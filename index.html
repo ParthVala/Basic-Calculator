@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <link rel="icon" href="calc.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <style>
+      body{
+        background-color: #ddffbc;
+        margin: 0;
+        text-align: center;
+        padding: 17rem 0 17rem;
+      }
+      h1{
+        font-family: 'Zilla Slab Highlight', cursive;
+        color: #fed049;
+        font-weight: bolder;
+        padding-bottom: 100px;
+        text-transform: capitalize;
+      }
+      .btn{
+        margin: 1rem 1rem 1rem;
+      }
+      .tx{
+        margin: 1rem 0 1rem;
+      }
+      .n{
+        font-family: 'New Tegomin', serif;
+        color: #be0000;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Basic Calculator</h1>
+    <form action="/" method="post">
+      <label class="n">Enter Number 1 : </label>
+      <input type="text" name="n1"> <br>
+      <input class="tx" type="text" name="op" size="35px"
+                    placeholder="Write Any Operator (E.g - Add, Sub, Mul, Div)">
+      <br>
+      <label class="n">Enter Number 2 : </label>
+      <input type="text" name="n2"> <br>
+      <button class="btn btn-primary" type="submit" name="submit">Calculate</button>
+    </form>
+  </body>
+
+</html>
